@@ -1,0 +1,52 @@
+* {
+	text-decoration: none;
+}
+
+.card {
+	margin: 20px;
+	width: 22rem;
+	height: 17rem;
+	font-size: 18px;
+	background-color: rgba(86, 86, 86, 0.616);
+	color: white;
+	padding: 18px;
+}
+
+.card:hover {
+	transform: scale(1.2);
+}
+
+.card-title {
+	margin-bottom: 15px;
+	background-color: rgba(201, 197, 197, 0.134);
+	color: white;
+}
+
+.iconoClima {
+	width: 100px;
+	height: 100px;
+	margin-left: -100%;
+	margin-top: -90%;
+}
+
+#closeIcon {
+	display: flex;
+	justify-content: flex-end;
+	margin-right: -8%;
+	margin-top: -8%;
+}
+
+.card-body {
+	margin-top: 0px !important;
+	padding-top: 0px !important;
+}
+
+#closeButton {
+	background-color: rgba(139, 0, 0, 0.483);
+	border: none;
+}
+#closeButton:hover {
+	box-shadow: inset 100px 0 0 0 #ffffff2d;
+	color: rgb(255, 255, 255);
+	background-color: rgba(0, 0, 0, 0.781);
+}
