@@ -31,7 +31,7 @@ export default function Card({ min, max, name, img, onClose, id }) {
 							/>
 						</div>
 						<Link to={`/ciudad/${id}`} style={{ textDecoration: "none", color: "white" }}>
-							<p>More...</p>
+							<button className="botonMore">More...</button>
 						</Link>
 					</div>
 				</div>

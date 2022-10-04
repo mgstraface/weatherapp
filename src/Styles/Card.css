@@ -1,9 +1,11 @@
+@import "https://fonts.googleapis.com/css?family=Rubik+One";
+
 * {
 	text-decoration: none;
 }
 
 .card {
-	margin: 20px;
+	margin: 20px 20px;
 	width: 22rem;
 	height: 17rem;
 	font-size: 18px;
@@ -13,7 +15,7 @@
 }
 
 .card:hover {
-	transform: scale(1.2);
+	transform: scale(1.1);
 }
 
 .card-title {
@@ -49,4 +51,30 @@
 	box-shadow: inset 100px 0 0 0 #ffffff2d;
 	color: rgb(255, 255, 255);
 	background-color: rgba(0, 0, 0, 0.781);
+}
+
+.botonMore {
+	min-width: 80px;
+	height: 25px;
+	color: #fff;
+	padding: 5px 10px;
+	font-size: 12px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	position: relative;
+	display: inline-block;
+	outline: none;
+	border-radius: 5px;
+	border: none;
+	background: #6c757d;
+	box-shadow: 0 5px #495057;
+}
+.botonMore:hover {
+	box-shadow: 0 3px #495057;
+	top: 1px;
+}
+.botonMore:active {
+	box-shadow: 0 0 #495057;
+	top: 5px;
 }

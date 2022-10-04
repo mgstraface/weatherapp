@@ -8,16 +8,14 @@ import { Link } from "react-router-dom";
 function Nav({ onSearch }) {
 	return (
 		<nav className="navbar navbar-dark bg-dark">
-			<Link to="/">
-				<span className="navbar-brand">
+			<span className="navbar-brand">
+				<Link to="/">
 					<img id="home" src={Home} alt="img not found" />
-				</span>
-			</Link>
-			<Link to="/about">
-				<span>
+				</Link>
+				<Link to="/about">
 					<img id="about" src={Acerca} alt="img not found" />
-				</span>
-			</Link>
+				</Link>
+			</span>
 			<SearchBar onSearch={onSearch} />
 		</nav>
 	);

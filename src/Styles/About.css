@@ -1,11 +1,20 @@
 .containerAbout {
+	padding: 5px;
 	background-color: rgba(0, 0, 0, 0.753);
 	width: 60%;
 	margin-left: 20%;
 	margin-top: 5%;
+	box-sizing: border-box;
 }
 
 .contacto {
 	display: flex;
 	justify-content: space-around;
+	object-fit: cover;
+	width: 100%;
+}
+
+.about {
+	object-fit: cover;
+	width: 100%;
 }

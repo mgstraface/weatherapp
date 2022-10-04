@@ -3,17 +3,19 @@
 	justify-content: end;
 }
 
-#logoHenry {
-	margin-right: 20px;
-}
-
 #about {
 	height: 60px;
 	border-radius: 20px;
-	margin-left: -800%;
+	/* margin-left: -800%; */
 }
 
 #home {
 	height: 60px;
 	border-radius: 20px;
+}
+
+.navbar-brand {
+	width: 30%;
+	display: flex;
+	justify-content: space-around;
 }

@@ -15,11 +15,11 @@ export default function SearchBar({ onSearch }) {
 			<input
 				className="inputText"
 				type="text"
-				placeholder="Ciudad..."
+				placeholder="City..."
 				value={city}
 				onChange={(e) => setCity(e.target.value)}
 			/>
-			<input type="submit" value="Agregar" />
+			<input type="submit" value="Add" />
 		</form>
 	);
 }
